@@ -1,4 +1,4 @@
-package com.simplemented.adgshortcutskeynote;
+package com.appunite.adgshortcutskeynote;
 
 import org.junit.Test;
 

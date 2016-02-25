@@ -1,4 +1,4 @@
-package com.simplemented.adgshortcutskeynote;
+package com.appunite.adgshortcutskeynote;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
