@@ -5,6 +5,22 @@ import java.util.concurrent.TimeUnit;
 // MyAltEnter -> Alt + Enter ->
 public class AltEnter {
 
+    final String JSON = "{\n" +
+            "    \"id\": 1,\n" +
+            "    \"name\": \"A green door\",\n" +
+            "    \"price\": 12.50,\n" +
+            "    \"tags\": [\"home\", \"green\"]\n" +
+            "}";
+
+    public static final String EMAIL_ADDRESS =
+            "[a-zA-Z0-9\\+\\.\\_\\%\\-\\+]{1,256}" +
+                    "\\@" +
+                    "[a-zA-Z0-9][a-zA-Z0-9\\-]{0,64}" +
+                    "(" +
+                    "\\." +
+                    "[a-zA-Z0-9][a-zA-Z0-9\\-]{0,25}" +
+                    ")+";
+
     private final int sideLength;
     private final float ratio;
     private final String name;

@@ -2,23 +2,6 @@ package com.appunite.adgshortcutskeynote;
 
 public class Editing {
 
-    final String JSON = "{\n" +
-            "    \"id\": 1,\n" +
-            "    \"name\": \"A green door\",\n" +
-            "    \"price\": 12.50,\n" +
-            "    \"tags\": [\"home\", \"green\"]\n" +
-            "}";
-
-    public static final String EMAIL_ADDRESS =
-            "[a-zA-Z0-9\\+\\.\\_\\%\\-\\+]{1,256}" +
-                    "\\@" +
-                    "[a-zA-Z0-9][a-zA-Z0-9\\-]{0,64}" +
-                    "(" +
-                    "\\." +
-                    "[a-zA-Z0-9][a-zA-Z0-9\\-]{0,25}" +
-                    ")+";
-
-
     // Alt + Arrow up
 
     // Alt, Alt (hold) + Arrow up / Arrow down - duplicate cursor
