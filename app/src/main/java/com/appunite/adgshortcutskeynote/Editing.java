@@ -2,7 +2,7 @@ package com.appunite.adgshortcutskeynote;
 
 public class Editing {
 
-    // Alt + Arrow up
+    // Alt + Arrow up - extend selection to next scope
 
     // Alt, Alt (hold) + Arrow up / Arrow down - duplicate cursor
 

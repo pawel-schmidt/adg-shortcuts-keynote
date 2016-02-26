@@ -15,7 +15,7 @@ public class IdeMovement implements View.OnClickListener {
             System.out.println(something);
             final FileWriter fileWriter = new FileWriter("");
             fileWriter.write(something);
-            // Cmd + Shift + F7 on "implements"
+            // Cmd + Shift + F7 on "catch"
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -44,15 +44,19 @@ public class IdeMovement implements View.OnClickListener {
 
     // F1, F1 - display doc in big window
 
-    // Ctrl + Space -> F1
+    // Ctrl + Space -> show code completion box
 
-    // Ctrl + Space, Ctrl + Space - double depth
+    // Ctrl + Space -> F1 - display doc in code completion box
+
+    // Ctrl + Space, Ctrl + Space - code completion box with deeper search
+
+    // Ctrl + Shift + Space - code completion box only with type-matched suggestions
 
     // Cmd + 1 -> Esc - focus on Project panel -> go back to editor
 
-    // Cmd + 6 -> Shift + Esc
+    // Cmd + 6 -> Shift + Esc - open bottom panel -> close bottom panel
 
-    // Cmd + F12, type something
+    // Cmd + F12, type something - find class method, variable, constant, etc.
 
     // Cmd + O - open class
 
@@ -66,19 +70,18 @@ public class IdeMovement implements View.OnClickListener {
 
     // Ctrl + Up arrow / Down arrow - go to method above/below
 
-    // Alt + Left arrow / Right arrow
+    // Alt + Left arrow / Right arrow - move cursor left/right to next "special" char
 
-    // Alt + Up arrow / Down arrow
+    // Alt + Up arrow / Down arrow - extend selection to next scope
 
     // Cmd + E - recent files
 
     // Cmd + B - go to declaration / find usages
 
-    // Cmd + Shift
+    // Cmd + Alt + B - search for implementation (use on interfaces)
 
-    // Cmd + Alt + B
+    // Ctrl + G - when no text selected: select whole word
+    // Ctrl + G - when text selected: select next selection occurrence
 
-    // Ctrl + G
-
-    // Cmd + Ctrl + G
+    // Cmd + Ctrl + G - select all occurrences
 }
